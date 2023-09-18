@@ -2,7 +2,7 @@
 
 The Bald Parent theme is purpose-built for Headless WordPress. It is intended to be used in conjunction with a separate front-end application and does not contain any front-end assets.
 
-![Bald Parent](./screnshot.png?raw=true)
+![Bald Parent](./screenshot.png?raw=true)
 
 
 ## Useful Links
