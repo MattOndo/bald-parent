@@ -1,0 +1,26 @@
+{
+  "name": "bald",
+  "version": "1.0.0",
+  "description": "The Bald theme is purpose-built for Headless WordPress on WP Engine Atlas. It is entirely focused on enabling Headless WordPress, and does not include any front-end assets. It is intended to be used in conjunction with a separate front-end application.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattOndo/Bald.git"
+  },
+  "keywords": [
+    "headless",
+    "rest",
+    "api",
+    "wordpress",
+    "theme",
+    "bald"
+  ],
+  "author": "Matt Ondo",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/MattOndo/Bald/issues"
+  },
+  "homepage": "https://github.com/MattOndo/Bald#readme",
+}

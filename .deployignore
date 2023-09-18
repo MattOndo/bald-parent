@@ -1,0 +1,11 @@
+.*
+Icon
+deployment/*
+CHANGELOG.md
+README.md
+package-lock.json
+package.json
+node_modules/*
+tailwind.config.js
+tailwindPlugins/*
+src/*

@@ -1,0 +1,56 @@
+/* Headlines */
+#poststuff .cf-field.cf-html h2 {
+  font-size: revert;
+  padding: revert;
+  line-height: revert;
+}
+
+/* Toggle Switches */
+.cf-checkbox.toggle .cf-field__body {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cf-checkbox.toggle input {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.cf-checkbox.toggle label {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cf-checkbox.toggle label:before {
+  content: '';
+  cursor: pointer;
+  width: 40px;
+  height: 20px;
+  background: #a8a8a8;
+  display: inline-block;
+  border-radius: 100px;
+}
+
+.cf-checkbox.toggle label:after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.cf-checkbox.toggle input:checked + label:before {
+  background: #2271b1;
+}
+
+.cf-checkbox.toggle input:checked + label:after {
+  left: 20px;
+}

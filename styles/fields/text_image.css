@@ -1,0 +1,15 @@
+.cf-field.cf-complex--tabbed-horizontal > .cf-field__head {
+  display: none;
+}
+.cf-field.text_image .cf-field__body input[value="text_image_content"] ~ .cf-complex__group-body {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: min-content min-content; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "headline image"
+    "sectioncopy image"; 
+}
+.cf-field.text_image .cf-field__body input[value="text_image_content"] ~ .cf-complex__group-body > .cf-text { grid-area: headline; }
+.cf-field.text_image .cf-field__body input[value="text_image_content"] ~ .cf-complex__group-body > .cf-richtext { grid-area: sectioncopy; }
+.cf-field.text_image .cf-field__body input[value="text_image_content"] ~ .cf-complex__group-body > .cf-image  { grid-area: image; }
