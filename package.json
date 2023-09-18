@@ -1,5 +1,5 @@
 {
-  "name": "bald",
+  "name": "bald-parent",
   "version": "1.0.0",
   "description": "The Bald Parent theme is purpose-built for Headless WordPress. It is intended to be used in conjunction with a separate front-end application and does not contain any front-end assets.",
   "scripts": {
@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MattOndo/Bald.git"
+    "url": "git+https://github.com/MattOndo/Bald-Parent.git"
   },
   "keywords": [
     "headless",
@@ -20,7 +20,7 @@
   "author": "Matt Ondo",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/MattOndo/Bald/issues"
+    "url": "https://github.com/MattOndo/Bald-Parent/issues"
   },
-  "homepage": "https://github.com/MattOndo/Bald#readme",
+  "homepage": "https://github.com/MattOndo/Bald-Parent#readme"
 }
