@@ -7,6 +7,6 @@ The Bald Parent theme is purpose-built for Headless WordPress. It is intended to
 
 ## Useful Links
 
-- [Download Theme](https://github.com/MatOndo/Bald/releases)
-- [GitHub Repository](https://github.com/MattOndo/Bald)
+- [Download Theme](https://github.com/MatOndo/Bald-Parent/releases)
+- [GitHub Repository](https://github.com/MattOndo/Bald-Parent)
 - [Matt Ondo](https://mattondo.io/)
