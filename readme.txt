@@ -8,7 +8,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-The Bald Parent theme is purpose-built for Headless WordPress on WP Engine Atlas. It is intended to be used in conjunction with a separate front-end application.
+The Bald Parent theme is purpose-built for Headless WordPress. It is intended to be used in conjunction with a separate front-end application and does not contain any front-end assets.
 
 = Developers =
 
