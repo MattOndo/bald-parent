@@ -28,8 +28,14 @@ This super-minimal theme includes a couple core features:
 
 `wp theme install https://github.com/MattOndo/Bald-Parent/releases/latest/download/bald-parent.zip --activate`
 
+## Useful Links
 
-### Developers
+- [Download Theme](https://github.com/MattOndo/Bald-Parent/releases)
+- [GitHub Repository](https://github.com/MattOndo/Bald-Parent)
+- [Bald Child](https://github.com/MattOndo/Bald-Child)
+- [Matt Ondo](https://mattondo.io/)
+
+## Developers
 
 `Bald Parent` requires the following dependencies. They are pre-installed and ready to go in the installable ZIP file.
 
@@ -47,10 +53,3 @@ Install the necessary dependencies:
 $ cd Bald-Child
 $ composer install
 ```
-
-## Useful Links
-
-- [Download Theme](https://github.com/MattOndo/Bald-Parent/releases)
-- [GitHub Repository](https://github.com/MattOndo/Bald-Parent)
-- [Bald Child](https://github.com/MattOndo/Bald-Child)
-- [Matt Ondo](https://mattondo.io/)
