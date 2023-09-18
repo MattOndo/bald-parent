@@ -16,13 +16,7 @@ This super-minimal theme includes a couple core features:
 
 ## Installation
 
-### Requirements
-
-`Bald Parent` requires the following dependencies. They are pre-installed and ready to go in the installable ZIP file.
-
-- [Composer](https://getcomposer.org/)
-
-**Download & Install**
+### Download ZIP
 
 1. Download the [latest release](https://github.com/MattOndo/Bald-Parent/releases/latest/download/bald-parent.zip)
 2. Login to WordPress and navigate to Appearance > Themes
@@ -30,12 +24,16 @@ This super-minimal theme includes a couple core features:
 4. Upload the `bald-parent.zip` file
 5. Click Activate to activate the Bald Parent theme
 
-**Install using WP CLI**
+### WP CLI
 
 `wp theme install https://github.com/MattOndo/Bald-Parent/releases/latest/download/bald-parent.zip --activate`
 
 
 ### Developers
+
+`Bald Parent` requires the following dependencies. They are pre-installed and ready to go in the installable ZIP file.
+
+- [Composer](https://getcomposer.org/)
 
 Clone or download this repository.
 
