@@ -42,10 +42,3 @@ require_once( get_template_directory() . '/includes/admin-enqueues.php' );
  */
 require_once( get_template_directory() . '/includes/admin-options.php' );
 require_once( get_template_directory() . '/includes/disable-gutenberg.php' );
-
-/**
- * Custom Fields
- * 
- * @since 1.0
- */
-require_once( get_template_directory() . '/includes/custom-fields.php' );

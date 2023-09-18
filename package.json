@@ -1,7 +1,7 @@
 {
   "name": "bald",
   "version": "1.0.0",
-  "description": "The Bald theme is purpose-built for Headless WordPress on WP Engine Atlas. It is entirely focused on enabling Headless WordPress, and does not include any front-end assets. It is intended to be used in conjunction with a separate front-end application.",
+  "description": "The Bald Parent theme is purpose-built for Headless WordPress. It is intended to be used in conjunction with a separate front-end application and does not contain any front-end assets.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

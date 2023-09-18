@@ -1,6 +1,6 @@
 {
-    "name": "mattondo/bald",
-    "description": "The Bald theme is purpose-built for Headless WordPress on WP Engine Atlas. It is entirely focused on enabling Headless WordPress, and does not include any front-end assets. It is intended to be used in conjunction with a separate front-end application.",
+    "name": "mattondo/bald-parent",
+    "description": "The Bald Parent theme is purpose-built for Headless WordPress. It is intended to be used in conjunction with a separate front-end application and does not contain any front-end assets.",
     "type": "library",
     "license": "GPL-3.0-or-later",
     "authors": [
