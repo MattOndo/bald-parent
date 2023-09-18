@@ -1,0 +1,58 @@
+# GitHub Action:
+# Runs when publishing a release
+# Creates a branch from the release tag
+# Generates an installable plugin ZIP file
+
+name: Build and Release
+
+env:
+  ZIP_FILE_NAME: bald-parent.zip
+  PLUGIN_SLUG: bald-parent
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  build-release:
+    name: Build and Upload Release Asset
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Get the tag name
+        run: echo "TAG=${GITHUB_REF/refs\/tags\//}" >> $GITHUB_ENV
+
+      ## Create Branch from Tag
+      - name: New Release Branch
+        uses: peterjgrainger/action-create-branch@v2.4.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          branch: '${{ env.TAG }}'
+
+      ## Composer Packages Install
+      - name: Use Composer
+        uses: php-actions/composer@v6
+        with:
+          command: install
+
+      ## Zip up the PLugin, ignoring files unnecessay in production.
+      - name: manual zip - necessary to create the propper container
+        run: cd .. && zip -r ${{ env.ZIP_FILE_NAME}} ${{ env.PLUGIN_SLUG}}/ -x@${{env.PLUGIN_SLUG}}/.deployignore
+
+      ## Move the plugin zip file, required for following actions to function propoerly.
+      - name: move the zip
+        run: mkdir build && cd .. && mv ${{ env.ZIP_FILE_NAME}} ${{ env.PLUGIN_SLUG}}/build/${{ env.ZIP_FILE_NAME}}
+
+      ## Add plugin zip to the current release
+      - name: Upload files to current release
+        uses: svenstaro/upload-release-action@2.5.0
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: ../${{ env.PLUGIN_SLUG}}/build/${{ env.ZIP_FILE_NAME}}
+          asset_name: ${{ env.ZIP_FILE_NAME}}
+          tag: ${{ github.ref }}
+          overwrite: true
