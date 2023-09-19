@@ -20,4 +20,4 @@ The Bald Parent theme is purpose-built for Headless WordPress. It is intended to
 
 == Changelog ==
 
-Refer to the [GitHub repository](https://github.com/MattOndo/Bald-Parent/releases) for more information on version history and updates.
+Refer to the [GitHub repository](https://github.com/MattOndo/bald-parent/releases) for more information on version history and updates.

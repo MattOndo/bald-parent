@@ -1,6 +1,6 @@
 # Bald Parent
 
-<img src="https://raw.githubusercontent.com/MattOndo/Bald-Parent/main/screenshot.png" width="400px" alt="Bald Parent">
+<img src="https://raw.githubusercontent.com/MattOndo/bald-parent/main/screenshot.png" width="400px" alt="Bald Parent">
 
 The Bald Parent theme is purpose-built for Headless WordPress. It is intended to be used in conjunction with a separate front-end application and does not contain any front-end assets. 
 
@@ -18,7 +18,7 @@ This super-minimal theme includes a couple core features:
 
 ### Download ZIP
 
-1. Download the [latest release](https://github.com/MattOndo/Bald-Parent/releases/latest/download/bald-parent.zip)
+1. Download the [latest release](https://github.com/MattOndo/bald-parent/releases/latest/download/bald-parent.zip)
 2. Login to WordPress and navigate to Appearance > Themes
 3. Click "Add New" and then "Upload Theme"
 4. Upload the `bald-parent.zip` file
@@ -26,12 +26,12 @@ This super-minimal theme includes a couple core features:
 
 ### WP CLI
 
-`wp theme install https://github.com/MattOndo/Bald-Parent/releases/latest/download/bald-parent.zip --activate`
+`wp theme install https://github.com/MattOndo/bald-parent/releases/latest/download/bald-parent.zip --activate`
 
 ## Useful Links
 
-- [Download Theme](https://github.com/MattOndo/Bald-Parent/releases)
-- [GitHub Repository](https://github.com/MattOndo/Bald-Parent)
+- [Download Theme](https://github.com/MattOndo/bald-parent/releases)
+- [GitHub Repository](https://github.com/MattOndo/bald-parent)
 - [Bald Child](https://github.com/MattOndo/Bald-Child)
 - [Matt Ondo](https://mattondo.io/)
 

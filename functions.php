@@ -12,7 +12,7 @@
 
 if ( ! defined( 'BALD_PARENT_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'BALD_PARENT_VERSION', '1.0.0' );
+	define( 'BALD_PARENT_VERSION', '1.0.1' );
 }
 
 function bald_parent_setup() {
